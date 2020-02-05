@@ -1,0 +1,31 @@
+git e github
+
+versionamento
+
+
+branchs são versoes do seu sistema, a principal é a master.
+
+commit são os envios das modificacoes que voce faz, geralmente ele vai junto com um comentario explicando o que voce fez nessa alteracao pra facilitar o entendimento dos outros programadores que estao trabalhando juntos no projeto
+
+
+
+comandos basicos git 
+git config --global user.name "Luan Teixeira" // muda o nome do usuario
+git config --global user.email "luanlts@outlook.com" // muda o email
+git config --global core.editor vscode //muda o editor de texto que voce utiliza
+
+dir //ver arquivos
+tree /f // ver arquivos
+cd// entra em pastas
+cd ..// volta uma pasta
+mkdir //cria pastas
+
+git init //cria um repositorio
+git status// verifica o que foi modificado na pasta do nosso projeto , se nao aparecer nada é porque ta tudo igual o do github
+git add <arquivo> ou git add -A // para adicionar os arquivos que ele ainda nao esta observando
+git commit -m /-am"mensagem"// fez o envio da versao que voce alterou
+git log // vizualiza todas as commits ja feitas no projeto e seus autores
+git branch // verifica em que branch voce esta mexendo
+git reset -soft// volta a versao mais mantendo as alteracoes antes do commit desejado
+git reset -mixed // valta a versao mais voce tera que dar os adds novamente
+git reset -hard //volta a versao e apaga tudo que foi feito depois da versao desejada
