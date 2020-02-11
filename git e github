@@ -45,3 +45,15 @@ git checkout HEAD -- <nome do arquivo>: volta as alteracoes apenas de um arquivo
 git remote add origin https://github.com/luanLTS/modulogit.git : adiciona um repositorio local remoto (origin é o nome)
 
 git push -u origin master: (origin) == onde vai ser enviado, (master == a branch que vai ser enviada)
+
+git revert --no-edit <codigo commit>: volta o commit e exclui o codigo que deu erro, depois voce pode dar um resert no commit e alterar o seu codigo tirando os erros 
+
+
+git push origin :<nome da branch> : remover branch remoto
+
+git <comando> : :vai deletar o qur voce estiver chamando
+
+
+git branch -D <nome do branch> : remover branch local, voce tem que estar fora dele
+
+git pull origin master : atualiza o repositorio local caso outra pessoa tenha feito alteracoes no repositorio
