@@ -30,3 +30,6 @@ git reset -soft// volta a versao mais mantendo as alteracoes antes do commit des
 git reset -mixed // valta a versao mais voce tera que dar os adds novamente
 git reset -hard //volta a versao e apaga tudo que foi feito depois da versao desejada
 
+git checkout <nome da branch> : muda de branch
+
+git branch <nome da branch> : cria uma nova branch
