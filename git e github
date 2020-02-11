@@ -43,3 +43,5 @@ git diff <nome do arquivo>: mostra o que foi alterado apenas no arquivo que voce
 git checkout HEAD -- <nome do arquivo>: volta as alteracoes apenas de um arquivo
 
 git remote add origin https://github.com/luanLTS/modulogit.git : adiciona um repositorio local remoto (origin é o nome)
+
+git push -u origin master: (origin) == onde vai ser enviado, (master == a branch que vai ser enviada)
