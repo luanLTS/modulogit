@@ -33,3 +33,13 @@ git reset -hard //volta a versao e apaga tudo que foi feito depois da versao des
 git checkout <nome da branch> : muda de branch
 
 git branch <nome da branch> : cria uma nova branch
+
+git diff : mostra o que foi alterando nos arquivos que ele mostra no status
+
+git diff --name-only : mostra so o nome dos arquivos que foram alterados
+
+git diff <nome do arquivo>: mostra o que foi alterado apenas no arquivo que voce quiser
+
+git checkout HEAD -- <nome do arquivo>: volta as alteracoes apenas de um arquivo
+
+git remote add origin https://github.com/luanLTS/modulogit.git : adiciona um repositorio local remoto (origin é o nome)
